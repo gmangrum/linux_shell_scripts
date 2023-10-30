@@ -1,0 +1,19 @@
+#!/bin/bash
+
+
+# Copyright 2023 by Grady Mangrum. All Rights Reserved
+
+if [[ $1 == "-f" ]]
+then
+    touch $2;
+elif [[ $1 == "-d" ]]
+then
+    mkdir $2;
+elif [[ $1 == "-c" ]]
+then
+    touch $3;
+    echo "#!/bin/bash" > $3;
+    chmod $2 $3;
+else
+    mk -f $1
+fi
