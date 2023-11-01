@@ -3,7 +3,11 @@
 
 # Copyright 2023 by Grady Mangrum. All Rights Reserved
 
-if [[ $1 == "-f" ]]
+if [[ -z "$1" ]]
+then
+    echo "mk: a command used for making things.";
+    printf 'Learn more: \e]8;;http://github.com/gmangrum/linux_shell_scripts/blob/main/docs/mk.md\e\\This is a link\e]8;;\e\\\n';
+elif [[ $1 == "-f" ]]
 then
     touch $2;
 elif [[ $1 == "-d" ]]
