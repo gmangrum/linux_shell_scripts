@@ -3,11 +3,11 @@ Learn how to use the `mk` command
 
 --------------------
 ## The Basics
-`-f`: creates a file
+`-f`: creates a file [Link](https://github.com/gmangrum/linux_shell_scripts/blob/main/docs/mk.md#-f-option)
 
-`-d`: creates a directory
+`-d`: creates a directory [Link](https://github.com/gmangrum/linux_shell_scripts/blob/main/docs/mk.md#-d-option)
 
-`-c`: creates a shell script
+`-c`: creates a shell script [Link](https://github.com/gmangrum/linux_shell_scripts/blob/main/docs/mk.md#-c-option)
 
 ## -f option
 You can create a file with the `-f` option.
